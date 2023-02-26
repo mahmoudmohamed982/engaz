@@ -1,0 +1,36 @@
+ /***************news section ************************************************/
+
+   
+    .news-item img{
+        width: 100%;
+    }
+   
+    .news-head {
+        margin-bottom: 3.5rem;
+    }
+    .news-item{
+        
+        padding: 30px;
+        box-shadow: 2px 4px 2px 3px #e8e8e8;
+
+    }
+    
+    .news-item ul li i{
+        color: cornflowerblue;
+
+    }
+    .news-content{
+        font-size: 1rem;
+        color: var(--black-color);
+        line-height: 1.3rem;
+       
+    }
+
+    .news-item span{
+        color: cornflowerblue;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+
+
+    /**************end news section **************************************/

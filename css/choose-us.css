@@ -1,0 +1,53 @@
+ /***********************why chhose us*****************************/
+ .choose-us{
+    background-color: var(--f9-bg-color);
+   margin: 170px 0;
+
+}
+.choose-title{
+  color: var(--black-color);
+  font-size: 2rem;
+}
+.left{
+  text-align: left;
+}
+.choose-head  .line
+{
+  margin: 0 0 50px 0 ;  
+}
+.left p{
+  line-height: 1.4;
+  padding-bottom: 20px;
+}
+
+.left .points{
+  font-size: 2rem;
+  font-weight: 2rem;
+  line-height: 1.4;
+}
+
+.points ul li i{
+  color: var(--main-color);
+  padding-right: 10px;
+}
+.right img{
+  width: 100%;
+}
+
+.right .bull li{
+  background-color: #9f9f9f;
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50% ;
+  cursor: pointer;
+}
+.right .bull li.active{
+  background-color: var(--main-color);
+}
+.right .bull li:hover{
+  background-color: var(--main-color);
+  transition: .3s;
+
+}
+/**************end choose us section **********************/

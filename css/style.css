@@ -1,0 +1,164 @@
+/* 
+
+1-general styles 
+2-common 
+3-sections 
+    3.0 header
+    3.1 home 
+    3.2 about 
+    3.3 features 
+    3.4 services 
+    3.5 prices 
+    3.6 team 
+    3.7 news
+    3.8 contact 
+    3.9 footer
+    /-------------------/
+          blog page
+ */
+
+/* 2- ********************general***********************  */
+
+:root {
+  --main-color: #6195ff;
+  --bg2-color: #e8e8e8;
+  --bg1-color: #f7f3ef;
+  --f4-bg-color: #f4f4f4;
+  --f9-bg-color: #f9f9f9;
+  --white-color: white;
+  --black-color: black;
+  --f6-bg-color: #f6f6f6;
+  --gray-color: rgb(146, 143, 143);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: 3.5rem;
+}
+/*====================================
+        media query for hedaders
+======================================*/
+@media  (min-width:300px){  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+   
+    word-spacing: 3px;
+    font-size: 2rem;
+  }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px){ 
+    h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+   
+    word-spacing: 4px;
+    font-size: 2.5rem;
+  }
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+   
+    word-spacing: 5px;
+    font-size: 3.5rem;
+  }
+  }
+  
+  
+section {
+  text-align: center;
+}
+/**************end genaral*******************/
+
+/***************common *******************/
+.container {
+  width: 80%;
+}
+.clear {
+  clear: both;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+  
+
+.pdy {
+  padding: 120px 0;
+}
+
+.about .about-header {
+  color: var(--black-color);
+}
+.line {
+  display: block;
+  background-color: var(--main-color);
+  width: 70px;
+  height: 4px;
+  margin: auto;
+}
+.ltr {
+  position: relative;
+}
+.ltr::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.7s;
+  border-radius: 85px;
+}
+
+.ltr:hover::after {
+  width: 100%;
+}
+
+/********************* end common ***********************************/

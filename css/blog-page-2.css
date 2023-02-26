@@ -1,0 +1,158 @@
+
+      /********************************* right div *******************************/
+      .big-right{
+        width: 30%;
+        margin-right: 30px;
+    }
+    .big-right .search-parent
+    {
+      height: 40px;
+      width: 100%;
+      border-radius: 3px;
+      margin-bottom: 20px;
+      background-color: var(--bg2-color);
+      border: 0;
+      outline: 0;
+      position: relative;
+
+    }
+    .big-right .search-child{
+        position: absolute;
+        right: 3%;
+        margin-top: 10px;
+      color: var(--main-color);
+    }
+    .right-header {
+        text-align: left;
+    }
+    .right-header span{
+        margin-left: 0;
+    }
+    
+
+    .category .cat {
+     text-align: left;
+     position: relative;
+     padding:  5px;
+     border-top: 1px solid var(--f4-bg-color) ;
+     border-bottom: 1px solid rgb(235, 234, 234) ;
+
+     margin: 15px 0 25px 0;
+
+    }
+    .category .cat span{
+        position: absolute;
+      right: 10px;
+      color: var(--main-color);
+      cursor: pointer;
+    
+
+
+    }
+     
+    .pos-content{
+      width: 40%;
+      float: left;
+      
+  position: relative;
+    }
+    .pos-content img{
+      width: 100%;
+   
+  }
+    
+    .pos-content a {
+      display: block;
+      float: left;
+      color: #354052;
+      margin-left: 12px;
+    }
+    .pos-content .history{
+      display: block;
+      float: left;
+     margin: 12px 0 0 12px;
+      font-size: 14px;
+      color: var(--main-color);
+    }
+    .pos-content  .pup-post{
+        position: absolute;
+        top: 0;
+      left: 106%;
+      text-align: left;
+      width: 98px;
+    }
+    .last-tags .right-header{
+      margin: 20px 0;
+    } 
+
+    .last-tags a{
+      display: inline-flex;
+      padding: 0px 13px;
+      color: var(--black-color);
+      font-size: 15px;
+      margin: 2px;
+      background-color: var(--f4-bg-color);
+      transition: .2s opacity;
+      
+    }
+    .last-tags a:hover{
+      background-color: var(--main-color);
+      color: var(--white-color);
+
+    }
+    .tags-links{
+  line-height: 53px;
+ 
+    }
+   /*********************leave a reply section *********************/
+ 
+   .rebly-header h3{  
+      color: var(--black-color);
+      font-size: 1.4rem;  
+      text-align: left;
+      margin-left: 70px;
+
+   }
+   .rebly-header span{
+       margin-left: 70px;
+   }
+   .reply-form{
+      
+      width: 70%;
+      margin-left: -30px;
+      margin-top: 50px;
+  
+   }
+   .reply-form input{
+      background-color: var(--f4-bg-color);
+      border: 0;
+      height: 50px;
+      width: 400px;
+      outline: 0;
+     margin: 20px 10px ;
+     border-radius: 5px;
+
+   }
+   .reply-form .text{
+      background-color: var(--f4-bg-color);
+      width: 820px;
+      height: 150px;
+   }
+   .reply-form .box1{
+       margin-left: 10px;
+   }
+   .reply-form .submit{
+      margin: 3px;
+  color: var(--white-color);
+  font-size: 17px;
+  padding: 10px 35px;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.3s; 
+  margin-left: -65%;
+  width: 125px;
+
+   }
+   

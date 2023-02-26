@@ -1,0 +1,62 @@
+/*******************margin**********************/
+.marg-b-5{
+    margin-bottom: 5px;
+}
+.marg-b-15{
+    margin-bottom: 15px;
+}
+.marg-b-30{
+    margin-bottom: 30px;
+}
+
+ .marg-top-12px{
+     margin-top: 12px;
+ }
+
+.marg-auto{
+    margin: auto;
+}
+/********************padding***************/
+
+.padding-10px{
+    padding: 10px;
+}
+
+/****************capitalize****************/
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+/***********border radius*****************/
+.border-radius-50-percent{
+    border-radius: 50%;
+}
+
+.border-radius-50-px{
+    border-radius: 50px;
+
+}
+
+.border-radius-30-px{
+    border-radius: 30px;
+
+}
+
+.border-radius-20-px{
+    border-radius: 20px;
+
+}
+
+.border-radius-10-px{
+    border-radius: 10px;
+}
+
+/************************display ********************/
+.display-flex{
+    display: flex;
+}
+.display-inline-flex{
+    display: inline-flex;
+}
+

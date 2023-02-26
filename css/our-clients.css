@@ -1,0 +1,25 @@
+ /*  3.4 our-cleints*/
+ .clients-header{
+    color: var(--white-color);
+  }
+  .our-clients{
+      background-color: rgb(4, 28, 52);
+      margin-top: 7rem;
+     
+  }
+  .clients .client-item{
+    margin-top: 3rem;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+
+  }
+  .clients .client-item img{
+      border-radius: 40px;
+      cursor: pointer;
+      width: 80%;
+  }
+  .clients .client-item:hover img{
+
+    transform: scale(1.1);
+
+  }

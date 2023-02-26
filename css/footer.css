@@ -1,0 +1,158 @@
+  /************************3.9 footer*********************************************/
+  footer{
+    background-color:var(--black-color);
+}
+
+  /*footer logo*/
+  
+  .footer-logo p {
+    line-height: 1.5;
+    color: var(--gray-color);
+  }
+  .footer-logo .download {
+    display: inline-flex;
+    gap: 30px;
+  }
+  
+  /*footer info and account*/
+  
+  .info ul li a,
+  .my-account ul li a {
+    color: var(--gray-color);
+    line-height: 2;
+    transition: 0.4s;
+  }
+  .info ul li:hover a,
+  .my-account ul li:hover a {
+    color: var(--white-color);
+  }
+  .info .list-header,
+  .my-account .list-header {
+    color: var(--white-color);
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+
+  }
+  .info input,
+  .my-account input {
+    display: none;
+  }
+ 
+  /*subscribe*/
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+  }
+  .subscribe > a {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+  .subscribe .email-input {
+    position: relative;
+  }
+  .subscribe .email-input input {
+    outline: 0;
+    border: 0;
+    background-color: var(--black-color);
+    border-bottom: 1px solid var(--gray-color);
+    padding: 2%;
+    width: 100%;
+    color: var(--white-color);
+  }
+  .subscribe .send-icon {
+    position: absolute;
+    right: 0;
+    top: 10%;
+  }
+  .subscribe .send-icon i {
+    color: var(--gray-color);
+    font-size: 1.3rem;
+  }
+  .subscribe input::-webkit-input-placeholder {
+    color: var(--gray-color);
+  }
+  /*socail media*/
+  .subscribe .socail-media ul li {
+    display: inline-flex;
+    padding: 10px;
+  }
+  .subscribe .socail-media ul li:hover i {
+    color: var(--white-color);
+  }
+  .subscribe .socail-media ul li i {
+    font-size: 1.5rem;
+    color: var(--gray-color);
+    transition: 0.4s;
+  }
+  .copy-right {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .copy-right span {
+    color: var(--gray-color);
+  }
+  /*       ====================================
+                 Footer section media query
+            ====================================
+                      */
+  
+   @media (max-width: 991.98px) {
+  
+    .footer-logo {
+      padding: 0;
+      margin-bottom: 10%;
+    }
+    .info .list-header,
+    .my-account .list-header {
+      display: block;
+    }
+    .subscribe .email-input input {
+      width: 100%;
+    }
+  
+    .subscribe .socail-media ul {
+      text-align: center;
+    }
+    .info ul,
+    .my-account ul {
+      display: none;
+    }
+    .info,
+    .my-account {
+      position: relative;
+    }
+    .info input,
+    .my-account input {
+      display: none;
+    }
+  
+    .info label,
+    .my-account label {
+      display: block;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      color: var(--gray-color);
+    }
+    .info label,
+    .info input,
+    .my-account label,
+    .my-account input {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .info input:checked ~ ul {
+      display: block;
+    }
+  } 
+  
+  
+  /*  ====================================
+        END Footer section media query
+      ====================================
+    
+  */

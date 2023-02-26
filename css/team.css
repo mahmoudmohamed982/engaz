@@ -1,0 +1,80 @@
+/*
+   ****************************3.6 team section ******************************************************* */
+.team-parent {
+  margin-top: 40px;
+}
+.member {
+  padding: 40px 10px;
+  background-color: rgb(230, 225, 225);
+  text-align: center;
+  position: relative;
+}
+
+.member .team-info-title {
+  color: var(--black-color);
+  font-size: 3rem;
+}
+.member .team-img {
+  position: relative;
+}
+.team-img img {
+  width: 100%;
+}
+.team-img .overlay-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.6s;
+}
+.team-img .overlay-img:hover {
+  opacity: 1;
+  overflow: visible;
+}
+.overlay-img a {
+  width: 40px;
+  height: 40px;
+  color: var(--white-color);
+  background-color: rgb(57, 104, 197);
+  margin-left: auto;
+  margin-bottom: 2px;
+  display: block;
+}
+.overlay-img a i {
+  width: 100%;
+  line-height: 40px;
+}
+.member.tb-effect {
+  z-index: 1;
+}
+.member.tb-effect:hover::after {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+.member:hover .team-info-title {
+  color: var(--white-color);
+}
+.member:hover .team-info-text {
+  color: royalblue;
+}
+/*
+****************************3.6  end team section **************** */
+@media (min-width: 567px) and (max-width: 920px) {
+  .overlay-img a {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 4px;
+  }
+  .overlay-img a i {
+    font-size: 2rem;
+    line-height: 80px;
+  }
+  .team-info-text {
+    font-size: 1.8rem;
+  }
+}
